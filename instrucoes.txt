@@ -1,0 +1,49 @@
+# Expressão Regular (REGEX)
+
+## Visão Geral
+
+- Expressão regular é utilizada para buscar, validar e substituir informações em um texto.
+- Uma expressão regular é case sensitive, isso significa que uma letra minuscula é diferente de uma letra maiuscula.
+- Podemos utilizar expressões regulares para validar informações:
+    -E-mail;
+    -Data;
+    -Endereço IP ou DNS;
+    -Endpoint;
+    -Padroes de configurações;
+    -Etc.
+
+-Nota: Antes de você aprender a criar expressões regulares é importante que você entenda uma coisa. 
+       Padrão é importante, sem ter um padrão vai ficar dificil trabalhar com empressão regular.
+
+-Exemplos: 
+- Identificar a data: Qual o formato?
+- Identificar conexões em um log: Qual formato do log?
+
+## Âncoras
+- ^ - Indica inicio do texto ou de uyma linha;
+- $ - Indica fim do texto ou de uma linha, exceto \n no fim do texto.
+
+## Padões individuais
+- \d - Indica um digito (Exemplo: número inteiro de 0 a 9);
+- \D - Indica qualquer caracter que não seja digito ( Exemplo: letras e caracteres especiais);
+- \w - Alfanumérico. indica qualquer caracter (Exemplo: letras e numeros inteiros de 0 a 90);
+- \W - Não alfanumerico. Indica qualquer caracter que não seja letras e numeros inteiros;
+- \s - Indica espaço em branco, quebra de linha e tabs;
+- \S - Indica a negação do \s, tudo que não for espaço em branco, quebra de linha e tabs;
+- . - Indica qualquer caracter;
+- + - Repete o ultimo padrao uma ou mais vezes;
+- * - Indica um coringa, qualquer caracter, exceto quebra de linha;
+
+## Agrupamento
+- [ ] - Lista de possiveis caracter;
+- ( ) - Indica um grupo para buscar alternativas ou para fazer a extração ou substituição;
+-  |  - Indica uma alternativa, considera um caracter ou outro. 
+
+
+
+
+Site para teste: https://regex101.com
+
+
+
+
