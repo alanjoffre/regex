@@ -40,9 +40,19 @@
 -  |  - Indica uma alternativa, considera um caracter ou outro. 
 
 
+Padrão: e-mail
+
+Site Regular Expression: https://regex101.com
+
+Para testes:
+robert-silva@jlcp.com.br
+teste@e-mail
+teste-validacao@gmail.com
+teste@bol.com
+teste@youtube.com.br
 
 
-Site para teste: https://regex101.com
+
 
 
 
