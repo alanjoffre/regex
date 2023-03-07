@@ -44,12 +44,29 @@ Padrão: e-mail
 
 Site Regular Expression: https://regex101.com
 
-Para testes:
-robert-silva@jlcp.com.br
+Dados para teste (email):
+robert.silva@jlcp.com.br
 teste@e-mail
 teste-validacao@gmail.com
 teste@bol.com
-teste@youtube.com.br
+.teste@youtube.com.br
+teste2@youtube.com.br
+joao1996@gmail.com.br
+
+"^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"gm
+
+Dados para teste (data):
+28/08/1992
+30/04/1990
+25/12/2022
+25-12-2220
+30-04-1990
+28-08-1992
+
+"\d{2}\/\d{2}\/\d{4}"gm
+
+Crédito: https://www.youtube.com/watch?v=aoIrjaRW6fw
+
 
 
 
